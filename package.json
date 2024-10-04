@@ -1,0 +1,18 @@
+{
+  "name": "discord-timezones",
+  "version": "1.0.0",
+  "description": "A friendly discord bot to help you get to know other people's timezones in discord, wether you're setting up a game time/collaborating with different timezones",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "John Kim Querobines",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.16.3"
+  },
+  "devDependencies": {
+    "eslint": "^9.11.1"
+  }
+}
