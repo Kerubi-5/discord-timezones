@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "strict": true, // Enable strict type checking
+    "esModuleInterop": true, // Allow import/export interop between ESModules and CommonJS
+    "skipLibCheck": true, // Skip checking type declarations for faster builds
+    "moduleResolution": "node", // Node module resolution strategy
+    "outDir": "./dist", // Output folder
+    "declaration": false, // Don't generate `.d.ts` files
+    "sourceMap": false, // No need for source maps in production
+    "removeComments": true // Remove comments for smaller bundle size
+  },
+  "exclude": ["node_modules", "dist"]
+}
